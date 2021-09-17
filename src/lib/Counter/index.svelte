@@ -41,10 +41,6 @@
 		margin: 1rem 0;
 	}
 
-	.counter button.disabled {
-		opacity: 0.3;
-	}
-
 	.counter button {
 		width: 2em;
 		padding: 0;
