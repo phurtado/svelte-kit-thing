@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './ilogo3.svg';
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
+	<div class="corner corner-left">
+		<a href="https://inconnexus.com.ar">
 			<img src={logo} alt="SvelteKit" />
 		</a>
 	</div>
@@ -25,7 +25,7 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
+	<div class="corner corner-right">
 		<!-- TODO put something else here? github link? -->
 	</div>
 </header>
@@ -47,6 +47,11 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
+	}
+
+	.corner-left {
+		background: rgba(0,0,0,1);
+    	border-bottom-right-radius: 10px;
 	}
 
 	.corner img {
