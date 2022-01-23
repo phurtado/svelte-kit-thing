@@ -86,6 +86,7 @@
         background-color: #eeeeee;
         transition: .1s all;
         transform-style: preserve-3d;
+        overflow: auto;
     }
 
     .card:hover:not(.outer-show-front) .inner-card {
